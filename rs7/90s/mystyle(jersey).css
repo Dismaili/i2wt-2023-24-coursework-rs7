@@ -1,0 +1,111 @@
+    body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+}
+nav > div {
+    list-style-type: none;
+    
+    
+}
+    header {
+            text-align: center;
+            padding: 10px;
+            background-color: #123456;
+            color: #fff;
+}
+    section {
+            margin-top: 20px;
+}
+    h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+}
+    .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+}
+    .jersey {
+            max-width: 300px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    .jersey img {
+            max-width: 100%;
+            border-radius: 8px;
+}
+    footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+/* Navbar */
+    .navbar-container { 
+        display: flex; 
+        justify-content: space-between; 
+        background-color: #123456; 
+        padding: 10px 20px; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+}
+
+    .nav-item { 
+        position: relative; 
+}
+
+    .dropbtn { 
+        background-color: #123456; 
+        color: white; 
+        padding: 10px 15px; 
+        border: none; 
+        cursor: pointer; 
+        font-size: 16px; 
+        border-radius: 4px; 
+        transition: background-color 0.3s ease; 
+}
+
+    .dropbtn:hover, .dropbtn:focus { 
+        background-color: #0d2f5b; 
+}
+
+    .dropdown-content { 
+        display: none; 
+        position: absolute; 
+        background-color: #f9f9f9; 
+        min-width: 200px; 
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+        z-index: 1; 
+        border-radius: 4px; 
+}
+
+    .dropdown-content a { 
+        color: black; 
+        padding: 12px 16px; 
+        text-decoration: none; 
+        display: block; 
+        transition: background-color 0.3s ease; 
+}
+
+    .dropdown-content a:hover { 
+        background-color: #ddd; 
+}
+
+    .nav-item:hover .dropdown-content { 
+        display: block; 
+}
+
+    .nav-link { 
+        color: white; 
+        text-decoration: none; 
+}

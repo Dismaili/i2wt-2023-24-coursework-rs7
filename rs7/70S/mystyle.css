@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    top: 130px;
+    z-index: -1;
+    bottom: 130px;
+}  
+
+table { 
+    width: 100%;
+   table-layout: auto;
+    border-collapse: collapse;
+   
+    
+}
+
+footer{
+    padding-top: 150px;
+}
+
+.playerNames{
+    color: white;
+    background-color: black;
+}
+.striker{
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.strikerName{
+    width: 100%;
+    text-align: center;
+   
+}
+.leftwing{
+    width: 50%;
+    text-align: center;
+}
+.rightwing{
+    width: 50%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.goalkeeper{
+    width: 100%;
+    text-align: center;
+   
+}
+.centermid{
+    width: 100%;
+    text-align: center;
+}
+.centerdefmid{
+    width: 100%;
+    text-align: center;
+}
+.defender{
+    width: 25%;
+    text-align: center;
+}
+h1{
+     text-align: center;
+    display: inline-block
+    outline-color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+}
+h2,h3{
+     text-align: center;
+    display: inline-block
+    outline-color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    outline-color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding: 10px;
+}
+.style{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    list-style-type: none;
+    
+}
+.info-section { background-color: #b0dfff; padding: 20px; margin: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); color: #333;
+}
+.info-section h2 { background-color:  #b0dfff; padding: 20px; margin: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); color: #333; }
+.info-section list{
+    background-color: #b0dfff; padding: 20px; margin: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); color: #333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    list-style-type: none;
+    background-color: 
+}
+.content {
+            display: none; /* Initial visibility */
+        }
+.homepagenames{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+  
+
